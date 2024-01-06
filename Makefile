@@ -83,5 +83,4 @@ home: core $(HOME_TARGETS) cleanup
 server: core $(SERVER_TARGETS) cleanup
 
 # Makefile meta variables
-.DEFAULT = common
 .PHONY: common core dotfiles dependencies cleanup software
